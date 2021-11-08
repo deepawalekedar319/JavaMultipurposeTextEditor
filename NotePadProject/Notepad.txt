@@ -1,0 +1,3 @@
+TextPad® is a powerful, general purpose editor for plain text files. 
+Easy to use, with all the features a power user requires. 
+More ... WildEdit® is an interactive tool for power users to make the same edits to a set of plain text files in a folder hierarchy.

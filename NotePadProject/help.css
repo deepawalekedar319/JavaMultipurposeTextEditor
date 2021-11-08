@@ -1,0 +1,20 @@
+body{
+padding-left:20px;
+padding-right:20px;
+background-color:#f7efda;
+}
+h1{
+color:red;
+}
+#first{
+color:blue;
+}
+.helps{
+color:#b50bad;
+}
+ul li{
+font-size:20px;
+}
+p{
+font-size:20px;
+}

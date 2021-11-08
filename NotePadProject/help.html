@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Multipurpose TextEditor - help</title>
+  <link rel="stylesheet" href="D:/NotePadProject/help.css">
+ </head>
+ <body>
+  <div align="center">
+	<strong><u><h1>Welcome to MultipurposeTextEditor</h1></u></strong><hr>
+  </div>
+  <em><u><h2 id="first">* Various languages present in MultipurposeTextEditor</h2></u></em>
+  <ul >
+  	<a href="#C-lang"><li>C</li></a> 
+	<a href="#Cpp-lang"><li>C++</li></a>
+  	<a href=""><li>Java</li></a>
+  	<a href=""><li>Python</li></a>
+  	<a href=""><li>Html</li></a>
+  	<a href=""><li>Css</li></a>
+	<a href=""><li>Perl</li></a>
+  	<a href=""><li>Ajax</li></a>
+  	<a href=""><li>XML</li></a>
+  </ul>
+  <h2 id="C-lang" class="helps">Compilation steps for C language<br>`````````````````````````````````````````````</h2>
+  <p><strong>STEP 1:</strong><br><br>
+  Run the command ‘gcc -v’ to check if you have a compiler installed. If not you need to download a gcc compiler and install it. You can search for cmd in your windows system to open the command prompt.<br><br>
+  <img src="cstep1.png" width="1090" height="466" border="0" alt="No image"><br><br>
+  <strong>STEP 2:</strong><br><br>
+
+Create a c program and store it in your system. I have written a program to find the Armstrong Number and store it in the directory user. We would be using following code.
+<br><br>
+#include stdio.h<br>
+int main()<br>
+{<br>
+int num, original, rem, sum = 0;<br>
+printf("Enter a three digit Number: ");<br>
+scanf("%d", &num);<br>
+original = num;<br>
+while (original != 0)<br>
+{<br>
+rem = original%10;<br>
+sum =sum + rem*rem*rem;<br>
+original =original/ 10;<br>
+}<br>
+if(sum == num)<br>
+printf("%d is an Armstrong number.",num);<br>
+else<br>
+printf("%d is not an Armstrong number.",num);<br>
+return 0;<br>
+}<br><br>
+<strong>STEP 3:</strong><br><br>
+
+Change the working directory to where you have your C program. You can do that by using the command ‘cd’, which changes the directory. We need to pass the name of the directory in which the program is stored.<br>
+
+Example:  >cd Desktop<br>
+
+Our program is already in the user directory so, we don’t need to change it.<br><br>
+
+<strong>STEP 4:</strong>
+<br><br>
+The next step is to compile the program. To do this we need to use the command gcc followed by the name of the program we are going to execute. In our case, we will use Armstrong.c.<br><br>
+<img src="cstep2.png" width="497" height="251" border="0" alt="No image"><br><br>
+After this, an executable file will be created in the directory that your c file exists in. Eg: Armstrong.exe<br><br>
+<strong>STEP 5:</strong>
+<br><br>
+In the next step, we can run the program. This is done by simply giving the name of the executable file without any extension. On giving this we will get an output. Here, our Armstrong code is executed and we got output for this code.<br><br>
+<img src="cstep3.png" width="497" height="251" border="0" alt="No image"><br><br>
+  </p>
+<h2 id="Cpp-lang" class="helps">Compilation steps for C++ language<br>```````````````````````````````````````````````</h2>
+<p></p>
+ </body>
+</html>
